@@ -1,22 +1,22 @@
 nav {
   background-color: #07020d;
   border-bottom: 4px solid #5db7de;
-}
 
-ul {
-  gap: 20px;
+  ul {
+    gap: 20px;
+
+    a.nav-link:link,
+    a.nav-link:visited {
+      color: #f1e9db;
+    }
+
+    a.nav-link:hover,
+    a.nav-link:active {
+      color: #5db7de;
+    }
+  }
 }
 
 .navbar-toggler-icon {
   background-color: #5db7de;
-}
-
-a.nav-link:link,
-a.nav-link:visited {
-  color: #f1e9db;
-}
-
-a.nav-link:hover,
-a.nav-link:active {
-  color: #5db7de;
 }
